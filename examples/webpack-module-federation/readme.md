@@ -18,4 +18,4 @@ yarn install
 yarn turbo:start
 ```
 
-![image](https://github.com/minsgy/micro-frontend-example/assets/60251579/dd32acbe-5723-426a-9f52-881b3f08ce68)
+![image](https://github.com/minsgy/micro-frontend-example/assets/60251579/2050ba7f-cead-463b-994e-5c6db1821647)
