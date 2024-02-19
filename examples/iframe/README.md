@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+## MFA Example (iframe)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+해당 프로젝트는 iframe을 이용한 마이크로 프론트엔드를 구현한 예제 프로젝트입니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Project start
 
-## Expanding the ESLint configuration
+```bash
+# 프로젝트 루트 디렉토리로 이동
+cd examples/iframe
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# 의존성 설치
+yarn install
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+# 프로젝트 실행
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![image](https://github.com/minsgy/micro-frontend-example/assets/60251579/dd32acbe-5723-426a-9f52-881b3f08ce68)
